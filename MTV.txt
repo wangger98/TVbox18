@@ -1999,7 +1999,9 @@ Jason Derulo｜ Breathing ,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg3euu4
 超嗨摇滚MV-Within Temptation｜ Sinead,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgzt2s4gUoxPKCmgI.mp4
 布兰妮-Britney Spears-Criminal,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg79ys4gUoovb4mAQ.mp4
 欧美空灵抒情ＭＶ－Arash feat. Helena｜ Broken Angel,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgj9ms4gUo9taBtAU.mp4
-MV3,#流派#
+
+
+MV3,#genre#
 9XM，http://d2q8p4pe5spbak.cloudfront.net:80/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=208000-video=877600.m3u8
 宇宙电视台，https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 欧洲独立音乐排行榜电视，http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
