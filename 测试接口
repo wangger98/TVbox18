@@ -1,79 +1,304 @@
-
-
-
-
-
-
-
 {
-  "spider": "./hx.jar",
+  "spider": "./4Kvip.jar;md5;f6ce0ce7bd8b398540be062ebef7051d",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  "lives": [
+"lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "url": "./lib/tvlive.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        }
+    ],
+  "sites": [
     {
-      "name": "IPv4",
-      "type": 0,
-      "url": "https://pan.shangui.cc/f/L4KKi3/dsj.txt",
-      "ua": "okhttp/3.12.13",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "key": "豆豆",
+      "name": "📚┃豆瓣┃【关注公众号：拾光畅谈】📚",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "Bili",
+      "name": "🐼哔哩合集┃所有资源均为免费提供",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./lib/bilibili.json"
+    },
+    {
+      "key": "csp_woggcli",
+      "name": "🐼4KHDR┃T4站-A",
+      "type": 4,
+      "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=8e14121f900f4bdfb861306f7a67b17c",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "🐼4KHDR┃4K站-B",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvbox/d3bf1ef8-625a-4ac1-a4a1-c588c620fcc9/token.txt"
+    },
+    {
+      "key": "PanSou",
+      "name": "🐼4KHDR┃4K站-C",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvbox/d3bf1ef8-625a-4ac1-a4a1-c588c620fcc9/token.txt"
+    },
+    {
+      "key": "七夜",
+      "name": "🐼4KHDR┃4K站-D",
+      "type": 3,
+      "api": "csp_Dovx",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvbox/d3bf1ef8-625a-4ac1-a4a1-c588c620fcc9/token.txt"
+    },
+    {
+      "key": "优酷",
+      "name": "🐼2KHDR┃官源-1",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/youku.js"
+    },
+    {
+      "key": "芒果",
+      "name": "🐼2KHDR┃官源-2",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/mangguo.js"
+    },
+    {
+      "key": "爱奇异",
+      "name": "🐼2KHDR┃官源-3",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/aiqiyi.js"
+    },
+    {
+      "key": "腾讯",
+      "name": "🐼2KHDR┃官源-4",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/tengxun.js"
+    },
+    {
+      "key": "Czsapp",
+      "name": "🐼2KHDR┃秒播-A",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.czzy88.com/"
+    },
+    {
+      "key": "南瓜",
+      "name": "🐼2KHDR┃秒播-B",
+      "type": 3,
+      "api": "csp_NanGua",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Nmys",
+      "name": "🐼2KHDR┃秒播-C",
+      "type": 3,
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./lib/nmys.json"
+    },
+    {
+      "key": "csp_Bttoo",
+      "name": "🐼2KHDR┃秒播-D",
+      "type": 3,
+      "api": "csp_Bttwoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Biliych",
+      "name": "🐼热门┃歌曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./lib/biliych.json"
+    },
+    {
+      "key": "js58",
+      "name": "🐼五八┃动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./lib/58动漫.js"
+    },
+    {
+      "key": "csp_动漫巴士",
+      "name": "🐼动漫┃巴士",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./lib/动漫巴士.json"
+    },
+    {
+      "key": "csp_qiumi",
+      "name": "🐼Jrs球┃直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/JRKAN直播.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "88js",
+      "name": "🐼看球┃球迷",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/88看球.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "drpy_js_短剧网",
+      "name": "🐼短剧┃大全",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/短剧网.js"
+    },
+    {
+      "key": "戏曲杂苑",
+      "name": "🐼戏曲｜大全",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/哔哩戏曲.json"
+    },
+    {
+      "key": "相声小品",
+      "name": "🐼相声｜小品",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/哔哩相声.json"
+    },
+    {
+      "key": "dr_兔小贝",
+      "name": "🐼教育┃儿童启蒙",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/兔小贝.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "少儿教育",
+      "name": "🐼教育┃少儿教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./lib/少儿教育.json"
+    },
+    {
+      "key": "小学课堂",
+      "name": "🐼教育┃小学课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./lib/小学课堂.json"
+    },
+    {
+      "key": "初中课堂",
+      "name": "🐼教育┃初中课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./lib/初中课堂.json"
+    },
+    {
+      "key": "高中教育",
+      "name": "🐼教育┃高中课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./lib/高中课堂.json"
     }
-  ],
-    "sites": [
-        {
-            "key": "js_豆瓣热播",
-            "name": "💕公众号：恒星育华学堂",
-            "type": 3,
-            "api": "./api/Api.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./js/Doubanrebo.js"
-        },
-        {
-			"key": "网盘配置",
-			"name": "💕网盘配置｜💕斧头帮",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"ext":"./json/tokenm.json"
-			,
-            "jar": "./pg.jar"
-		},
-        {
-            "key": "AliYunPan",
-            "name": "💕云盘登录|T签到",
-            "type": 3,
-            "api": "csp_AliYunPan",
-            "searchable": 0,
-            "filterable": 0,
-            "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
-        },
-
-
-        {
-            "key": " 星空影院 ",
-            "name": "🎬星空┃影院",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "手机",
-                "数组": "",
-                "图片": "data-original=\"&&\"",
-                "标题": "title=\"&&\"",
-                "链接": "href=\"&&\"",
-                "线路数组": "<h3 class=\"title\">&&</h3>[排序:播放线路3>播放线路2>播放线路4>播放线路5>播放线路6>播放线路1>]",
-                "线路标题": "✨集多专享接口✨+>播放线路</h3>",
-                "播放数组": "ul class=\"stui-content__playlist clearfix\">&&</ul>",
-                "跳转播放链接": "Base64(var player_*\"url\":\"&&\")",
-                "分类url": "http://www.xuym.cn/vrgfdsr/{cateId}-{area}--{class}-{lang}----{catePg}---{year}.html[http://www.xuym.cn/xkyh/{cateId}.html]",
-                "分类": "电影&连续剧&综艺&动漫&悬疑&犯罪&纪录&惊悚&动作&喜剧&爱情&科幻&恐怖&剧情&战争&国产剧&港台剧&日韩剧&海外剧&欧美剧",
-                "分类值": "1&2&3&4&25&23&24&30&6&7&8&9&10&11&12&13&20&21&22&16"
-            }  
-
   ],
 //=========解析嗅探====================================================
 "parses": [
