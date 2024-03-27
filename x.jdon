@@ -1,6 +1,16 @@
+
 {
-"spider":"./jar/0312.jar",
+"spider":"./jar/pg.jar",
 "sites":[
+{"key":"Taohuazu","name":"桃花族🔞","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60},
+
+{"key":"SeHuaTang","name":"色花堂🔞","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$proxy","style": {"type": "rect","ratio": 1.5}},
+
+{"key":"色播","name":"色播🔞","type":3,"api":"./json/色播.js","searchable":1,"changeable":0,"style":{"type":"list"}}
+]
+}
+
+
 {"key":"荐片","name":"//JianPian","type":3,"api":"csp_JianPian","searchable":1,"quickSearch":0,"filterable":1,"changeable":0,"hide":1,"ext":"https://ownjpykxttjzuhy.jiesiwa.com"},
 
 {"key":"阿里盘搜","name":"//阿里盘","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"hide":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
